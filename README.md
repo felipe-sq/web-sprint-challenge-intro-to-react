@@ -31,12 +31,17 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+  React JS is a programming language that allows us to handle asynchronous/dynamic data without sacrificing page response or page load times. It allows for segmented and simplified design by allowing for independent code snippets to be written once and reused across an app without having to re-write the same code over and over again. 
 
 1. Describe component state.
+  Component state refers to the object where we store the default values of a component. When the state object changes, the component is prompted to re-render in order to reflect the change in state. For example, this would be used when selecting options from a list in an app. The component would hold the default state of a list of options. We would then write code to allow for a user to change the state by selecting an option from the list. The act of clicking (by using an event listener) changes the default state to show the selected option, thereby re-rendering the component to now show the individual details of the selected option. 
 
 1. Describe props.
+  Props refers to a keyword used in React JS. Props stands for "properties" and is used to pass data from one react component to another. It is uni-directional, which means that props can only be passed in one direction (from component 1 to component 2, but cannot be passed back from component 2 to component 1).
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+  Side effects, in React, are changes in the state of a component which happens as an unintended result of a function. We sync the effects in a React component by the use of 'useEffect', which allows us to specify how the unintended results will be used within the components of an app. 
+
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
