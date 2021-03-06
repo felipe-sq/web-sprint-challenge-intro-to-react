@@ -18,7 +18,7 @@ const App = () => {
     axios.get('https://swapi.dev/api/people/')
       .then(res => {
         setCharacters(res.data)
-        console.log(res.data)
+        // console.log(res.data)
       })
       .catch(err => {
         console.log(err)
@@ -35,7 +35,8 @@ const App = () => {
         })
       }  
       {/* {
-        currentCharID
+        currentCharID 
+        This section is staged for more advanced functionality but is still a work in progress as it is not required for MVP.
       } */}
     </AppDiv>
   );
