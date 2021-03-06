@@ -1,7 +1,7 @@
-// import React { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import styled from 'styled-components';
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
@@ -14,9 +14,9 @@ const App = () => {
   // sync up with, if any.
 
   return (
-    <div className="App">
-      <h1 className="Header">Characters</h1>
-    </div>
+    <AppDiv>
+      <HeaderH1>Characters</HeaderH1>
+    </AppDiv>
   );
 }
 
@@ -24,8 +24,11 @@ export default App;
 
 const AppDiv = styled.div`
   // code here
+  text-align: center;
 `;
 
-const HeaderDiv = styled.div`
+const HeaderH1 = styled.h1`
   //code here
+  color: #443e3e;
+  text-shadow: 1px 1px 5px #fff;
 `;
