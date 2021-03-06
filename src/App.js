@@ -34,9 +34,9 @@ const App = () => {
           return <Character key={e.name} info={e}/>
         })
       }  
-      {
+      {/* {
         currentCharID
-      }
+      } */}
     </AppDiv>
   );
 }
@@ -46,7 +46,7 @@ export default App;
 const AppDiv = styled.div`
   display: flex;
   flex-direction: column;
-  align-content: center;
+  align-items: center;
   justify-content: center;
   text-align: center;
 `;
